@@ -1,0 +1,56 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+section {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+section {
+    display: block;
+}
+
+body {
+    background-image: url("http://i.enki-village.com/4Tr4IjcakjsuKBuZyI2E9q_q7RE=/800x0//images/2014/12/d3b5cf150600ab7bed11cb70cadbc7b8.jpg");
+    background-color: #3f8abf;
+    padding: 50px 0 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 62.5%;
+}
+
+h1,
+h2 {
+
+    font-size: 2.4em;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #384047;
+    line-height: 1.2;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 1.8em;
+}
+
+
+.container {
+
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 1080px;
+    padding: 30px 15px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+
