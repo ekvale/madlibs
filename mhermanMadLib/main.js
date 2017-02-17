@@ -24,8 +24,11 @@ $(function() {
 
         // hide the questions
         $("#questions").hide();
+    });
 
-
+    $("#play-btn").click(function() {
+        $("#story").hide();
+        $("#questions").show();
     });
 
 });
